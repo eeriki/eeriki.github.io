@@ -35,6 +35,11 @@ a{
 	color:  white;
 }
 
+#titulo h1 a, a:active{
+	color: white;
+	text-decoration: none;
+}
+
 
 button{
 	margin: 10px;
@@ -57,8 +62,29 @@ button:hover{
 	background:  rgb(255, 0, 105);;
 }
 
-button.active{
+.active{
 	background: rgb(255, 10, 150);
+}
+
+input{
+	display: none;
+}
+
+.picture{
+	display: flex;
+	width: 120px;
+	height: 40px;
+	background: rgb(150, 0, 105);
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	border-radius: 120px;
+	cursor: pointer;
+	
+}
+
+.picture:hover{
+	background: rgb(255, 0, 150);
 }
 
 #imagem-emo{
